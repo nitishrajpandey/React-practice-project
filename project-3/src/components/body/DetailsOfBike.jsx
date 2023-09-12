@@ -3,7 +3,7 @@
 function DetailsOfBike() {
   return (
     <>
-    <div className="flex md:flex-row md:flex-wrap flex-col items-center gap-10 md:gap-10 justify-evenly mb-10">
+    <div className="flex md:flex-row md:flex-wrap flex-col items-center gap-10 lg:gap-0  justify-evenly mb-10">
         <div className="border-[1px] border-gray-200 shadow-lg shadow-[#b8b8b8] outline-none w-[200px] h-[140px] flex flex-col items-center justify-center rounded-md hover:scale-110 duration-500 hover:ease-in-out">
             <div className="flex items-baseline gap-3">
                 <h1 className="font-bold text-5xl text-[#42454A]">105</h1>
