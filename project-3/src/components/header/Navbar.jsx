@@ -3,12 +3,12 @@ import { FaBars } from 'react-icons/fa';
 function Navbar() {
   return (
     <>
-    <nav className=" fixed w-full h-[10vh] flex justify-between items-center px-5 md:px-10 border-b border-b-gray shadow-md">
+    <nav className="fixed top-0 z-20 bg-white w-full h-[10vh] flex justify-between items-center px-5 md:px-10 border-b border-b-gray shadow-md">
 
 
     <div className=" inline-block md:hidden">
         <FaBars className="inline-block text-xl"/>
-        <img className=" inline-block ml-5 w-14" src={logo} alt="" />
+        <img className=" inline-block ml-5 w-10 sm:w-14" src={logo} alt="" />
     </div>
 
     <div className=" hidden md:block">
@@ -31,7 +31,7 @@ function Navbar() {
 
     <div className="">
         <button className=" mr-4 px-2 py-1 sm:px-4 sm:py-2 shadow-md rounded-md ">LOG IN</button>
-        <button className="px-2 py-1 sm:px-4 sm:py-2 bg-[#42454A] text-white  rounded-md ">SIGN UP</button>
+        <button className="px-2 py-1 sm:px-4 sm:py-2 bg-[#42454A] shadow-md text-white  rounded-md ">SIGN UP</button>
     </div>
     </nav>
     </>
