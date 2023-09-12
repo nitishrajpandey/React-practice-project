@@ -6,7 +6,7 @@ function ProductInformation() {
   return (
     <>
       <div className=" mt-28">
-        <div>
+        <div className="px-5 sm:px-0">
           <h1 className=" text-[#42454A] font-bold text-5xl text-center">
             Product Information
           </h1>
