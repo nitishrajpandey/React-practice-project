@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa';
 function Navbar() {
   return (
     <>
-    <nav className="fixed top-0 z-20 bg-white w-full h-[10vh] flex justify-between items-center px-5 md:px-10 border-b border-b-gray shadow-md">
+    <nav className="fixed top-0 z-50 bg-white w-full h-[10vh] flex justify-between items-center px-5 md:px-10 border-b border-b-gray shadow-md">
 
 
     <div className=" inline-block md:hidden">
