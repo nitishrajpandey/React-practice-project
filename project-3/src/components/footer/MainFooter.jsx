@@ -87,6 +87,9 @@ function MainFooter() {
             </div>
           </div>
         </div>
+          <div className="text-center md:col-span-3 text-white">
+            <h1>© Nitish Raj 2023. All rights reserved.</h1>
+          </div>
       </div>
     </>
   );
