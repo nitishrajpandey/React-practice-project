@@ -39,7 +39,7 @@ function HeroSection() {
               <h3>works</h3>
             </div>
             <div>
-              <img src={image2} alt="" />
+              <img  src={image2} alt="" />
             </div>
           </div>
         </div>
