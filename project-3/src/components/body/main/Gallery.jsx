@@ -23,11 +23,11 @@ function Gallery() {
 
           <div className='grid grid-flow-row md:grid-cols-2 gap-20 mt-10 sm:mt-12 md:mt-28'>
             <div>
-              <h1 className=' z-20 relative font-bold text-4xl text-[#42454A] top-36 left-10'>Scooter</h1>
+              <h1 className=' z-20 relative inline-block font-bold text-4xl text-[#42454A] top-36 left-10'>Scooter</h1>
               <img className='w-full relative top-20' src={image1} alt="" />
             </div>
             <div>
-            <h1 className=' z-20 relative font-bold text-4xl text-[#42454A] top-14 left-10'>Built Quality</h1>
+            <h1 className=' z-20 relative inline-block font-bold text-4xl text-[#42454A] top-14 left-10'>Built Quality</h1>
               <img src={image2} alt="" />
             </div>
           </div>
@@ -39,7 +39,7 @@ function Gallery() {
               <div className='border-2 border-[#42454A] rounded-lg my-8 py-4 text-center font-bold text-[#42454A] text-3xl'>Charging Cable Images</div>
             </div>
             <div>
-              <h1 className=' z-20 relative font-bold text-4xl text-[#42454A] top-14 left-10' >Parts</h1>
+              <h1 className=' z-20 relative inline-block font-bold text-4xl text-[#42454A] top-14 left-10' >Parts</h1>
               <img className='' src={image3} alt="" />
               
             </div>

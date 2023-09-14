@@ -6,6 +6,9 @@ import Gallery from "./components/body/main/Gallery"
 import HighEfficiency from "./components/body/main/HighEfficiency"
 import MultipleAccessories from "./components/body/main/MultipleAccessories"
 import ProductInformation from "./components/body/main/ProductInformation"
+import MainFooter from "./components/footer/MainFooter"
+import Newsletter from "./components/footer/Newsletter"
+import Testimonials from "./components/footer/Testimonials"
 import Navbar from "./components/header/Navbar"
 
 
@@ -24,6 +27,9 @@ function App() {
     <MultipleAccessories/>
     <Gallery/>
     <Color/>
+    <Testimonials/>
+    <Newsletter/>
+    <MainFooter/>
 
 
     </>
