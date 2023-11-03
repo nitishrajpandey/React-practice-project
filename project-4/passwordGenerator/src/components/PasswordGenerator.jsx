@@ -74,7 +74,7 @@ function PasswordGenerator() {
   return (
     <>
     
-    <h1 className=" capitalize  font-bold text-4xl sm:text-5xl text-center text-purple-400 pt-10">password generator</h1>
+    <h1 className=" capitalize  font-bold text-4xl sm:text-5xl text-center text-blue-500 pt-10">password generator</h1>
 
     <div className="mx-10 sm:mx-auto flex flex-col justify-center max-w-2xl md:max-w-xl m-auto text-orange-500 bg-gray-700 px-4 md:px-10 mt-14 shadow-lg rounded-2xl py-14">
       
