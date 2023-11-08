@@ -5,18 +5,20 @@ function App() {
     <>
       <div className=" w-full overflow-hidden">
         {/* NavBar  */}
-        <div className="sm:px-16 px-6 flex-center">
+        <div className="px-16 lg:px-6 flex-center">
           <div className=" xl:max-w-[1280px] w-full">
             <Navbar />
           </div>
         </div>
 
-        {/* Hero section start */}
+        {/* Hero section */}
         <div className="sm:px-16 px-6 flex-center">
           <div className=" xl:max-w-[1280px] w-full">
             <Hero />
           </div>
         </div>
+
+        
       </div>
     </>
   );

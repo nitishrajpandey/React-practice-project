@@ -23,3 +23,7 @@
     justify-content: center;
     align-items: center;
 }
+
+.button-emrald {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full text-lg font-semibold sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white ;
+  }
