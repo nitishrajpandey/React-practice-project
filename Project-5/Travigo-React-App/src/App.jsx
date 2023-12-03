@@ -1,4 +1,5 @@
 import { Hero, Navbar } from "./Components";
+import Explore from "./Components/Explore";
 import MemoriesCard from "./Components/MemoriesCard";
 
 function App() {
@@ -22,6 +23,11 @@ function App() {
         {/* MemoriesCard section */}
         <div className="xl:max-w-[1280px] w-full">
           <MemoriesCard />
+        </div>
+
+        {/* Explore section  */}
+        <div className="xl:max-w-[1280px] w-full">
+          <Explore />
         </div>
       </div>
     </>
