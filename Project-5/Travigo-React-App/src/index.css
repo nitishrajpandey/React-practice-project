@@ -1,38 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-    *{
-        margin:0;
-        padding:0;
-        font-family: 'Open Sans', sans-serif;
-    }
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
 }
 
-*{
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
 }
 
-.flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.scroll-hidden::-webkit-scrollbar {
+  display: none !important;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-emrald {
-    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full text-lg font-semibold sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white ;
-  }
+  @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full text-lg font-semibold sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white;
+}
 
+.button-light {
+  @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-100 rounded-full text-lg  px-9 py-1.5 transition-all duration-200 active:scale-90 text-black;
+}
 
-  .button-light {
-    @apply bg-gradient-to-b from-white to-slate-100 shadow-lg shadow-slate-100 rounded-full text-lg  px-9 py-1.5 transition-all duration-200 active:scale-90 text-black ;
-  }
-
-  .drop-shadow-emrald {
-    filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
-  }
+.drop-shadow-emrald {
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
+}

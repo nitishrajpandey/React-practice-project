@@ -1,6 +1,8 @@
 import { Hero, Navbar } from "./Components";
 import Explore from "./Components/Explore";
+import MembershipPlainCard from "./Components/MembershipPlainCard";
 import MemoriesCard from "./Components/MemoriesCard";
+import PaymentMethod from "./Components/PaymentMethod";
 
 function App() {
   return (
@@ -28,6 +30,17 @@ function App() {
         {/* Explore section  */}
         <div className="xl:max-w-[1280px] w-full">
           <Explore />
+        </div>
+
+        {/* brandsection */}
+
+        <div className="xl:max-w-[1280px] w-full">
+          <PaymentMethod />
+        </div>
+
+        {/* membership card component */}
+        <div className="xl:max-w-[1280px] w-full">
+          <MembershipPlainCard />
         </div>
       </div>
     </>

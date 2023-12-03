@@ -3,7 +3,7 @@
 
 function City({ item }) {
   return (
-    <div className="flex gap-5 w-[300px] items-center ">
+    <div className="flex gap-5 w-[300px] items-center hover:scale-105 hover:bg-[#6EE7B7] duration-200 ease-in-out rounded-xl ">
       <div className=" w-20">
         <img src={item.img} alt="" className="w-full rounded-xl" />
       </div>

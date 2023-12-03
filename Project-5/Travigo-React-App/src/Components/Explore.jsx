@@ -11,7 +11,7 @@ function Explore() {
           Explore The Beauty of World
         </h1>
       </div>
-      <div className="flex  flex-wrap lg:justify-center justify-start gap-10">
+      <div className="flex my-10  flex-wrap lg:justify-center justify-start gap-10">
         {exploredata.map((item) => (
           <City key={item.id} item={item} />
         ))}
