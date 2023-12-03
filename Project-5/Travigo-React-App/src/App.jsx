@@ -4,7 +4,7 @@ import MemoriesCard from "./Components/MemoriesCard";
 function App() {
   return (
     <>
-      <div className=" w-full overflow-hidden">
+      <div className=" w-full  overflow-hidden">
         {/* NavBar  */}
         <div className=" flex-center ">
           <div className={`  fixed  top-0    z-50  xl:max-w-[1280px] w-full`}>
