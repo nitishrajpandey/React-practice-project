@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`px-16 lg:px-6 h-[80px] w-full flex justify-between py-6 items-center ${
+        className={`px-16 lg:px-6 h-[80px] bg-opacity-90 w-full flex justify-between py-6 items-center ${
           navState && "bg-white"
         }`}
       >
