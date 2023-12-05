@@ -15,4 +15,7 @@ import brand3 from "./brand3.png"
 import brand4 from "./brand4.png"
 import brand5 from "./brand5.png"
 import standardicon from "./standardicon.png"
-export { memory, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, brand1, brand2, brand3, brand4, brand5, standardicon }
+import preminum from "./preminum.png"
+import checkbox from "./checkbox.svg"
+import uncheckbox from "./uncheckbox.svg"
+export { memory, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, brand1, brand2, brand3, brand4, brand5, standardicon, preminum, checkbox, uncheckbox }

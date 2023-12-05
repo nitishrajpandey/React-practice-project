@@ -1,5 +1,5 @@
 import dashboard from "../Assets/dashboard.png";
-import { img1, img10, img2, img3, img4, img5, img6, img7, img8, img9 } from "../Assets";
+import { checkbox, img1, img10, img2, img3, img4, img5, img6, img7, img8, img9, standardicon } from "../Assets";
 
 export const navlinks = [
     {
@@ -106,3 +106,24 @@ export const exploredata = [
 
     },
 ]
+
+
+export const memberShipPlanDetails = {
+    title: "Choose The Plan That Suits You",
+    subtitle: "Many attractive offers by becomming a premium member",
+    btn1: "Monthly",
+    btn2: "Yearly",
+    plan: [
+        {
+            planIcon: standardicon,
+            cardTitle: "Standard Membership",
+            cardSubtitle: "Suitable for all users",
+            cardType: "Free / Year",
+            planContent: [
+                { iconbox: checkbox, Text: "Find Popular Destination" },
+                { iconbox: checkbox, Text: "Priority Booking Schedule" },
+                { iconbox: checkbox, Text: "Find Popular Destination" },
+            ]
+        }
+    ]
+}
