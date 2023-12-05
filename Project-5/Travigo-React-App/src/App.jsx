@@ -1,4 +1,5 @@
 import { Hero, Navbar } from "./Components";
+import Banner from "./Components/Banner";
 import Explore from "./Components/Explore";
 import MembershipPlainCard from "./Components/MembershipPlainCard";
 import MemoriesCard from "./Components/MemoriesCard";
@@ -41,6 +42,11 @@ function App() {
         {/* membership card component */}
         <div className="xl:max-w-[1280px] w-full">
           <MembershipPlainCard />
+        </div>
+
+        {/* banner */}
+        <div className="xl:max-w-[1280px] w-full">
+          <Banner />
         </div>
       </div>
     </>

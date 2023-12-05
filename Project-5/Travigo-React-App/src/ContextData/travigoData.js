@@ -152,3 +152,10 @@ export const memberShipPlanDetails = {
         },
     ]
 }
+
+
+export const bannerData = {
+    title: "The Greet Outdoors",
+    subtitle: "Whislist Curated By Travigo.",
+    btn: "Explore More"
+}
