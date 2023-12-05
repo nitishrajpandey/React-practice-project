@@ -115,6 +115,7 @@ export const memberShipPlanDetails = {
     btn2: "Yearly",
     plan: [
         {
+            id: 1,
             planIcon: standardicon,
             cardTitle: "Standard Membership",
             cardSubtitle: "Suitable for all users",
@@ -132,6 +133,7 @@ export const memberShipPlanDetails = {
 
         },
         {
+            id: 2,
             planIcon: preminum,
             cardTitle: "Preminum Membership",
             cardSubtitle: "Suitable for enthusiast travelers",
