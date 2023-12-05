@@ -1,5 +1,5 @@
 import dashboard from "../Assets/dashboard.png";
-import { checkbox, img1, img10, img2, img3, img4, img5, img6, img7, img8, img9, standardicon } from "../Assets";
+import { checkbox, img1, img10, img2, img3, img4, img5, img6, img7, img8, img9, preminum, standardicon, uncheckbox } from "../Assets";
 
 export const navlinks = [
     {
@@ -122,8 +122,31 @@ export const memberShipPlanDetails = {
             planContent: [
                 { iconbox: checkbox, Text: "Find Popular Destination" },
                 { iconbox: checkbox, Text: "Priority Booking Schedule" },
+                { iconbox: checkbox, Text: "Daily Destination News" },
+                { iconbox: uncheckbox, Text: "Invite Friends Feature" },
+                { iconbox: uncheckbox, Text: "Limited Travel Stats" },
+                { iconbox: uncheckbox, Text: "Invite Friends Feature" },
+                { iconbox: uncheckbox, Text: "No Ads & Tax" },
+            ],
+            btn: "Get Free"
+
+        },
+        {
+            planIcon: preminum,
+            cardTitle: "Preminum Membership",
+            cardSubtitle: "Suitable for enthusiast travelers",
+            cardType: "$60 / Year",
+            planContent: [
                 { iconbox: checkbox, Text: "Find Popular Destination" },
-            ]
-        }
+                { iconbox: checkbox, Text: "Priority Booking Schedule" },
+                { iconbox: checkbox, Text: "Daily Destination News" },
+                { iconbox: checkbox, Text: "Invite Friends Feature" },
+                { iconbox: checkbox, Text: "Advanced Travel Stats" },
+                { iconbox: checkbox, Text: "Invite Friends Feature" },
+                { iconbox: checkbox, Text: "No Ads & Tax" },
+            ],
+            btn: "Get Started"
+
+        },
     ]
 }
