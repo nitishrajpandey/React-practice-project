@@ -19,4 +19,8 @@ import preminum from "./preminum.png"
 import checkbox from "./checkbox.svg"
 import uncheckbox from "./uncheckbox.svg"
 import banner from "./banner.webp"
-export { memory, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, brand1, brand2, brand3, brand4, brand5, standardicon, preminum, checkbox, uncheckbox, banner }
+import facebook from "./facebook.svg"
+import instagram from "./instagram.svg"
+import twitter from "./twitter.svg"
+import youtube from "./youtube.svg"
+export { memory, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, brand1, brand2, brand3, brand4, brand5, standardicon, preminum, checkbox, uncheckbox, banner, facebook, instagram, twitter, youtube }

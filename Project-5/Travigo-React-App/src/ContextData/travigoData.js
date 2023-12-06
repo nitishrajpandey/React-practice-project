@@ -159,3 +159,36 @@ export const bannerData = {
     subtitle: "Whislist Curated By Travigo.",
     btn: "Explore More"
 }
+
+
+
+export const footer = {
+    section1: [
+        { title: "ABOUT" },
+        { link: "About US" },
+        { link: "Features" },
+        { link: "News" },
+        { link: "Menu" }
+    ],
+    section2: [
+        { title: "COMPANY" },
+        { link: "Why Travigo?" },
+        { link: "Partner with Us" },
+        { link: "FAQ" },
+        { link: "Blog" }
+    ],
+    section3: [
+
+        { title: "SUPPORT" },
+        { link: "Account" },
+        { link: "Support Center" },
+        { link: "Feedback" },
+        { link: "Contact Us" },
+        { link: "Accesbility" }
+
+    ],
+    bottomBar: [
+        { text: "Copyright© All Reserved Rights 2023 Nitish Raj" }
+    ]
+
+}

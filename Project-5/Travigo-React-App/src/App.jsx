@@ -1,6 +1,8 @@
 import { Hero, Navbar } from "./Components";
 import Banner from "./Components/Banner";
 import Explore from "./Components/Explore";
+import Feedback from "./Components/Feedback";
+import Footer from "./Components/Footer";
 import MembershipPlainCard from "./Components/MembershipPlainCard";
 import MemoriesCard from "./Components/MemoriesCard";
 import PaymentMethod from "./Components/PaymentMethod";
@@ -47,6 +49,12 @@ function App() {
         {/* banner */}
         <div className="xl:max-w-[1280px] w-full">
           <Banner />
+        </div>
+
+        {/* footer */}
+        <div className="w-full">
+          <Feedback />
+          <Footer />
         </div>
       </div>
     </>
