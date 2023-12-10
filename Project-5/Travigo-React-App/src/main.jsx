@@ -10,12 +10,14 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+import Explore from "./Pages/Explore/Explore.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="Home" element={<Home />} />
       <Route path="About" element={<About />} />
+      <Route path="Explore" element={<Explore />} />
     </Route>
   )
 );
