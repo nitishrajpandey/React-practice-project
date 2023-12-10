@@ -40,3 +40,17 @@
 .drop-shadow-emrald {
   filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
 }
+/* body::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+} */
+body::-webkit-scrollbar {
+  @apply w-[10px];
+}
+body::-webkit-scrollbar-track {
+  @apply bg-gradient-to-b from-slate-100 to-gray-100;
+}
+body::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gradient-to-tr from-emerald-500 to-green-500;
+}

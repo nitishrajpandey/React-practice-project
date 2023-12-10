@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { exploredata } from "../ContextData/travigoData";
+import { exploredata } from "../../../ContextData/travigoData";
 import City from "./City";
 
 function Explore() {

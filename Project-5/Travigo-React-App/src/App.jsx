@@ -1,11 +1,8 @@
-import { Hero, Navbar } from "./Components";
-import Banner from "./Components/Banner";
-import Explore from "./Components/Explore";
+import { Outlet } from "react-router-dom";
+import { Navbar } from "./Components";
+
 import Feedback from "./Components/Feedback";
 import Footer from "./Components/Footer";
-import MembershipPlainCard from "./Components/MembershipPlainCard";
-import MemoriesCard from "./Components/MemoriesCard";
-import PaymentMethod from "./Components/PaymentMethod";
 
 function App() {
   return (
@@ -17,38 +14,8 @@ function App() {
             <Navbar />
           </div>
         </div>
-
-        {/* Hero section */}
-        <div className=" px-6 flex-center bg-gradient-to-b from-emerald-200 to-white">
-          <div className=" xl:max-w-[1280px] w-full">
-            <Hero />
-          </div>
-        </div>
-
-        {/* MemoriesCard section */}
-        <div className="xl:max-w-[1280px] w-full">
-          <MemoriesCard />
-        </div>
-
-        {/* Explore section  */}
-        <div className="xl:max-w-[1280px] w-full">
-          <Explore />
-        </div>
-
-        {/* brandsection */}
-
-        <div className="xl:max-w-[1280px] w-full">
-          <PaymentMethod />
-        </div>
-
-        {/* membership card component */}
-        <div className="xl:max-w-[1280px] w-full">
-          <MembershipPlainCard />
-        </div>
-
-        {/* banner */}
-        <div className="xl:max-w-[1280px] w-full">
-          <Banner />
+        <div>
+          <Outlet />
         </div>
 
         {/* footer */}

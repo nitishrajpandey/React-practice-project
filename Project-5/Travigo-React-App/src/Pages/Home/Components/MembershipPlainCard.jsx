@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { memberShipPlanDetails } from "../ContextData/travigoData";
+import { memberShipPlanDetails } from "../../../ContextData/travigoData";
 import PlainCard from "./PlainCard";
 
 function MembershipPlainCard() {

@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { brand1, brand2, brand3, brand4, brand5 } from "../Assets";
+import { brand1, brand2, brand3, brand4, brand5 } from "../../../Assets";
 
 function PaymentMethod() {
   return (

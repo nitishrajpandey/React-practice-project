@@ -1,7 +1,7 @@
 // import React from 'react'
 
-import { banner } from "../Assets";
-import { bannerData } from "../ContextData/travigoData";
+import { banner } from "../../../Assets";
+import { bannerData } from "../../../ContextData/travigoData";
 
 function Banner() {
   return (

@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { memory } from "../Assets";
+import { memory } from "../../../Assets";
 
 function MemoriesCard() {
   return (

@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { hero } from "../ContextData/travigoData";
+import { hero } from "../../../ContextData/travigoData";
 
 function Hero() {
   return (

@@ -50,7 +50,9 @@ function Navbar() {
                   index == navlinks.length - 1 ? "mr-0" : "mr-10"
                 } cursor-pointer text-lg`}
               >
-                <NavLink className="text-black">{nav.link}</NavLink>
+                <NavLink to={nav.link} className="text-black">
+                  {nav.link}
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -77,7 +79,9 @@ function Navbar() {
                   key={nav.id}
                   className={`font-semibold  cursor-pointer text-lg`}
                 >
-                  <NavLink className="text-black">{nav.link}</NavLink>
+                  <NavLink to={nav.link} className="text-black">
+                    {nav.link}
+                  </NavLink>
                 </li>
               ))}
               <button className="font-semibold text-lg button-emrald">
