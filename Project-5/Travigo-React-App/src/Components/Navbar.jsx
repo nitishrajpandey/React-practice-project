@@ -50,7 +50,12 @@ function Navbar() {
                   index == navlinks.length - 1 ? "mr-0" : "mr-10"
                 } cursor-pointer text-lg`}
               >
-                <NavLink to={nav.link} className="text-black">
+                <NavLink
+                  to={nav.link}
+                  className={({ isActive }) =>
+                    `${isActive ? "text-yellow-800" : "text-black"} `
+                  }
+                >
                   {nav.link}
                 </NavLink>
               </li>

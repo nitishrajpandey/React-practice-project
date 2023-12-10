@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import Explore from "./Pages/Explore/Explore.jsx";
 import Price from "./Pages/Price/Price.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path="About" element={<About />} />
       <Route path="Explore" element={<Explore />} />
       <Route path="Pricing" element={<Price />} />
+      <Route path="Contact" element={<Contact />} />
     </Route>
   )
 );
