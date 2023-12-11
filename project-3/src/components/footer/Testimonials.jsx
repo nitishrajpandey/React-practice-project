@@ -3,8 +3,8 @@
 import image from "../../assets/serhiy hipskyy.png";
 import image1 from "../../assets/Justus Menke.png";
 import image2 from "../../assets/Britain Eriksen.png";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft} from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowLeft} from "react-icons/fa";
 
 function Testimonials() {
   return (
@@ -96,15 +96,13 @@ function Testimonials() {
           </div>
         </div>
 
-
-
         <div className="flex justify-center gap-10">
-            <button className="px-6 py-5 rounded-full border-2 border-[#42454A] hover:bg-[#727374] duration-300 ">
-            <FaArrowLeft className="text-black " />
-                 </button>
-            <button className="px-6 py-5 border-2 border-[#42454A] rounded-full hover:bg-[#727374] duration-300 ">
-            <FaArrowRight className="text-black" />
-                 </button>
+          <button className="px-6 py-5 rounded-full border-2 border-[#42454A] hover:bg-[#727374] duration-300 ">
+            {/* <FaArrowLeft className="text-black " /> */}
+          </button>
+          <button className="px-6 py-5 border-2 border-[#42454A] rounded-full hover:bg-[#727374] duration-300 ">
+            {/* <FaArrowRight className="text-black" /> */}
+          </button>
         </div>
       </div>
     </>

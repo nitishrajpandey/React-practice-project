@@ -1,9 +1,9 @@
 // import React from 'react'
 
 import image from "../../assets/footer scooter.png";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
+// import { FaTwitterSquare } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 
 function MainFooter() {
   return (
@@ -81,15 +81,15 @@ function MainFooter() {
             </ul>
 
             <div className="flex gap-5 mt-4">
-              <FaFacebook className="text-3xl text-white" />
+              {/* <FaFacebook className="text-3xl text-white" />
               <FaTwitterSquare className="text-3xl text-white" />
-              <FaInstagram className="text-3xl text-white" />
+              <FaInstagram className="text-3xl text-white" /> */}
             </div>
           </div>
         </div>
-          <div className="text-center md:col-span-3 text-white">
-            <h1>© Nitish Raj 2023. All rights reserved.</h1>
-          </div>
+        <div className="text-center md:col-span-3 text-white">
+          <h1>© Nitish Raj 2023. All rights reserved.</h1>
+        </div>
       </div>
     </>
   );

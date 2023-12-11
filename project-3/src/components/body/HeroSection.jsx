@@ -2,7 +2,7 @@
 import React from "react";
 import image from "../../assets/header image.png";
 import image2 from "../../assets/header play button.png";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 
 function HeroSection() {
   return (
@@ -26,7 +26,7 @@ function HeroSection() {
           <div className="flex items-center gap-5 sm:gap-20 md:gap-12 lg:gap-14 mt-10">
             <div className="flex items-center gap-4">
               <button className=" px-5 py-5 bg-[#42454A]">
-                <FaArrowRight className="text-white" />
+                {/* <FaArrowRight className="text-white" /> */}
               </button>
               <div>
                 <h1 className="font-bold">Buy Now</h1>
@@ -39,11 +39,11 @@ function HeroSection() {
               <h3>works</h3>
             </div>
             <div>
-              <img  src={image2} alt="" />
+              <img src={image2} alt="" />
             </div>
           </div>
         </div>
-        <div className=" col-span-2 md:mt-10 lg:mt-0" >
+        <div className=" col-span-2 md:mt-10 lg:mt-0">
           <img src={image} alt="" />
         </div>
       </div>
